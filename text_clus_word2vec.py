@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.cluster import KMeans
 
 
-data = pd.read_csv("/Users/harsh/Desktop/text/merged.csv", header  = None)
+data = pd.read_csv("merged.csv", header  = None)
 data.columns = ['id','category','text']
 #print data[:5]
 labels = data['category']
